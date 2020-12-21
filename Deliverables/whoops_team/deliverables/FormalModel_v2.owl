@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3"
+     xml:base="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#beConposed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#beConposed"/>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#hasA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#hasA">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#hasAEnd -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#hasAEnd"/>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#hasAStart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#hasAStart"/>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#locateIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#locateIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Average -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Average">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EndDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EndDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EndPoint -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EndPoint">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EndTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EndTime">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EnterainmentVenueType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EnterainmentVenueType">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Length -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Length">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Location">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Name">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#NumOfSchedule -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#NumOfSchedule">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Region -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Region">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#RestaurantType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#RestaurantType">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#StartDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#StartDate">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#StartPoint -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#StartPoint">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#StartTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#StartTime">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Tags -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Tags">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TimePeriod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TimePeriod">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TouristSpotType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TouristSpotType">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EntertainmentVanue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EntertainmentVanue">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EnterainmentVenueType"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Spot"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Restaurant"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TouristSpot"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Restaurant">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#RestaurantType"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Spot"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TouristSpot"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#RouteOfTransportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#RouteOfTransportation">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EndPoint"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#StartPoint"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Schedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Schedule">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#hasA"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#RouteOfTransportation"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#locateIn"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Spot"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Average"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EndTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#StartTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#ScheduleList -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#ScheduleList">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#beConposed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#ScheduleList"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Spot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Spot">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Region"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Tags"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Average"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Location"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Name"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TimePeriod"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TimeTable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TimeTable">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#hasA"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#ScheduleList"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Average"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#EndDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#NumOfSchedule"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#StartDate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TouristSpot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TouristSpot">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#TouristSpotType"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#rational"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#Spot"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#today -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/doriswang/ontologies/2020/11/untitled-ontology-3#today"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
